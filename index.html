@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body onload="getdata()">
+    <form onsubmit="savedata(event)">
+        <input type="text" id="title" placeholder="Title"><br><br>
+        <input type="text" id="content" placeholder="Content"><br><br>
+        <input type="text" id="slug" placeholder="Slug"><br><br>
+        <input type="number" id="rating" placeholder="Rating"><br><br>
+        <input type="date" id="date" placeholder="Date"><br><br>
+        <input type="text" id="author" placeholder="Author"><br><br>
+        <input type="submit" value="save" >
+    </form>
+
+
+    <table>
+        <thead>
+            <tr>
+                <th>id</th>
+                <th>title</th>
+                <th>content</th>
+                <th>slug</th>
+                <th>rating</th>
+                <th>data</th>
+                <th>author</th>
+            </tr>
+        </thead>
+        <tbody class="tbody">
+
+        </tbody>
+    </table>
+
+
+
+
+
+
+    <script src="./app.js"></script>
+</body>
+</html>
